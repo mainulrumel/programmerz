@@ -1,0 +1,212 @@
+/* 
+    Document   : layout
+    Created on : Apr 9, 2011, 3:06:03 AM
+    Author     : Rana
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+*{
+    padding: 0px ; 
+    margin: 0px;	
+}
+
+#container{
+	position:relative;
+	left:0px;
+	top:0px;
+	margin:0px auto;	
+} 
+#header{	
+	width:auto;
+	height:93px;
+}
+#header .logo img{
+        margin-left:132px;
+       
+}
+
+#header_bottom{
+	background-image:url(../../images/layout/header_bottom_bg.gif);
+	background-repeat:no-repeat;
+	height:233x;
+	/*width:960px;*/
+	
+}
+#header_bottom .search_box{
+	padding-left:150px;
+        padding-top:100px;
+        float:left;        
+}
+#header_bottom .search_box input{
+        width: 250px;
+        height: 40px;
+}
+#header_bottom_text{
+        float:right;
+        padding-right:100px;
+        padding-top:39px;       
+}
+
+
+#contant{
+	background-image:url(../../images/layout/contant_bg.gif);
+	background-repeat:repeat-x;
+	/*width:960px;*/
+	height:531px;
+	
+}
+
+#contant_text_up{
+
+	padding-top:46px;
+	width:756px;
+}
+
+#contant_text_up h1{
+	padding-left:108px;
+	text-align:left;
+}
+
+#contant_text_up p{
+	padding-top:22px;
+	padding-left:108px;
+	text-align:left;
+}
+
+#container_tex_bottom{
+	padding-top:25px;
+	padding-left:102px;
+	
+}
+
+#container_tex_bottom h1{
+		text-align:left;
+}
+#container_tex_bottom img{
+	padding-top:10px;
+
+}
+
+.left_part{
+	position:relative;
+	float:left;
+	text-align:left;
+	width:230px;
+	
+}
+
+.middle_part{
+	position:relative;
+	float:left;
+	text-align:left;
+	width:260px;
+}
+
+.rihght_part{
+	position:relative;
+	float:left;
+	text-align:left;
+	width:240px;
+}
+
+.footer{
+	background-color:#303123;
+	/*width:960px;*/
+	height:55px;
+}
+
+
+
+.header_bottom_text2{
+	 text-align:justify;
+	 padding-top:19px;
+}
+
+.header_bottom_text1{
+	padding-top:16px;
+	text-align:right;
+}
+
+.contant_image_left{
+	padding-top:32px;
+	padding-left:15px;
+	padding-right:15px;
+}
+.middle_part_list{
+	list-style-image:url(../../images/layout/4.gif);
+	padding-left:25px;
+}
+
+.image_middle_hr{
+	padding-top:32px;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.right_part_list{
+	list-style-image:url(../../images/layout/5.gif);
+	padding-left:30px;
+ }
+
+
+
+ .footer img{
+ 	padding-top:5px;
+}
+.footer_right{
+	padding-top:31px;
+	
+
+}
+.image_padding{
+	padding-top:18px;
+}	
+
+  .main_menu {
+            position: relative;
+            float:right;           
+            width:319px;
+            background-color:#303123;
+            padding-right:30px;
+			padding-top:24px;
+            margin: 10px 0;
+            overflow: hidden;
+			
+         }
+                .main_menu li {
+                    float: left;
+                    list-style: none;
+                }
+                    .main_menu li.back {
+                        border: 1px solid #CCCCCC;
+						width: 9px;
+                        height: 27px;
+                        z-index: 8;
+                        position: absolute;
+				}
+                    .main_menu li a {
+                        font: bold 14px arial;
+                        text-decoration: none;
+                        outline: none;
+                        text-align: center;
+                        top: 7px;
+                      	letter-spacing: 0;
+                        z-index: 10;
+                        display: block;
+                        float: left;
+                        height: 30px;
+                        position: relative;
+                        overflow: hidden;
+                        margin: auto 10px;
+                    }
+                        .main_menu li a:hover, .main_menu li a:active, .main_menu li a:visited {
+						                      border: none;
+                        }  
+
+
+
