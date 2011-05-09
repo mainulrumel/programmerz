@@ -1,0 +1,72 @@
+/* 
+    Document   : styles.css
+    Created on : Apr 23, 2011, 2:41:03 PM
+    Author     : Rana
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+htm,BODY {
+   text-align:center;
+   color:#00CCCC;
+   font-size:12px;
+   line-height:13px;
+
+   background-color:#808080;  
+}
+
+#header{
+	background-color:#303123;
+}
+
+#header_bottom .search_box input{
+        font-size: 25px;
+}
+
+.main_menu li a{
+	color:#666666;
+}
+ .main_menu li a:hover, .main_menu li a:active, .main_menu li a:visited {
+						                     color:#FFFFFF;
+                        }  
+#header_bottom_text h1{
+	color:#FFFFFF;
+	font-size:32px;
+
+}
+
+#contant_text_up h1{
+	color:#6b6b6b;
+	font-size:18px;	
+}
+
+#contant_text_up p{
+	color:#999999;
+}
+
+#container_tex_bottom h1{
+	color:#6b6b6b;
+	font-size:24px;
+}
+#contant{
+	color:#868585;
+}
+
+
+.footer{
+	color:#FFFFFF;
+}
+
+.header_bottom_text2{
+		 color:#FFFFFF;
+}
+
+.header_bottom_text1{
+	color:#000000;
+}
+
